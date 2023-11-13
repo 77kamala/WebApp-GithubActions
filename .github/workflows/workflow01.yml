@@ -1,10 +1,10 @@
 name: Workflow01
 on: workflow_dispatch
 jobs:
-    worflow-job01:
-          runs-on: ubuntu-latest
-    steps: 
-      - name: print hello
-        run: |
-          echo "hello"
-          echo "hi"
+  worflow-job01:
+        runs-on: ubuntu-latest
+        steps: 
+          - name: print hello
+            run: |
+              echo "hello"
+              echo "hi"
